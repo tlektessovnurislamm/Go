@@ -1,0 +1,88 @@
+#root {
+    max-width:320px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    margin-bottom: 60px;
+  }
+
+body{
+    margin: 0;
+  }
+.BackImg {
+    height: 250px;
+    background-image: url('https://avatars.mds.yandex.net/i?id=4475b106fd821a86609372eb5ee2406932fdae6b-12190079-images-thumbs&n=13');
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 10px 20px;
+}
+
+.BackImg div{
+  display: flex;
+  justify-content: space-around;
+  width: 80px;
+}
+
+.BackImg .circle{
+  justify-content: center;
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background:#fff;
+  display: flex;  
+  align-items: center;
+}
+
+.BackImg .circle svg{
+  height: 18px;
+  width: 18px;
+}
+
+.info_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+
+.info_card .info{
+    display: block;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+
+}
+.info_card .info h1{
+    font-size: 20px;
+    margin: 0;
+}
+
+.info_card .info p{
+    font-size: 14px;
+    margin:0;
+}
+
+.info_card .info .gray{
+  border: none;
+  color: #363636;
+  height: 15px;
+  width: 15px;
+}
+
+.info_card .info svg{
+  border: none;
+  color: #ffd500;
+  height: 15px;
+  width: 15px;
+}
+
+.info_card button{
+  background-color: #242424;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  height: 40px;
+}
